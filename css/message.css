@@ -1,0 +1,129 @@
+@font-face{
+    font-family: "方正粗宋简体";
+    src: url(../font/方正粗宋简体.ttf);
+}
+@font-face{
+    font-family: "金桥简老宋";
+    src: url(../font/JQLaoSongJT.TTF);
+}
+@font-face{
+	font-family: "方正兰亭黑简体";
+	src:url(../font/FZLYT.TTF)
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    font-family: "方正兰亭黑简体";
+    color: #555555;
+}
+.container{
+    display: block;
+    width: 50%;
+    margin: 6% auto 2% auto ;
+    text-align: center;
+    height: 100%;
+}
+.messages>p{
+    line-height: 3em;
+    /*color: #8ECCC9;*/
+    font:normal 1.6em "方正兰亭黑简体";
+    font-weight: bold;
+}
+.messages{
+    position: relative;
+    height: 80%;
+}
+#toolbar hr{
+    color: #DDD8D8;
+    border: none;
+    border-top: 1px solid;
+    margin-top: 2em;
+}
+#toolbar{
+    position: relative;
+}
+#toolbar>a{
+    text-decoration:none;
+    color:#555555;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    vertical-align: bottom;
+    font-weight: normal;
+    font-size: 0.7em;
+}
+.pull-right{
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+.pull-right a{
+    text-decoration: none;
+    color:#555555;
+    font-weight: normal;
+    font-size: 0.7em;
+
+}
+#bar-pic{
+    width: 0.6em;
+    vertical-align: middle;
+}
+div.mail {
+    font-size: 0.7em;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    vertical-align: middle;
+}
+div.mail:hover{
+    background-color:#F5F5F5;
+}
+.sender-pic{
+    border-radius:100%;
+    overflow:hidden;
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    width: 50px;
+}
+.sender-pic,.sendername,.sendtime,.mail-title{
+    display: inline;
+}
+.sendername{
+    position: absolute;
+    left: 2%;
+    top: 0;
+    margin-left: 70px;
+}
+.mail-title{
+    position: absolute;
+    left: 2%;
+    top: 0;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.sendtime{
+    position: absolute;
+    right: 8%;
+    top: -3%;
+}
+.mail-option{
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 1em;
+}
+.mail-right{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+/*.mail-right a{*/
+/*}*/
+

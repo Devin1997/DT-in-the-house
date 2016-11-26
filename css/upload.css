@@ -1,0 +1,126 @@
+@font-face{
+	font-family: "方正粗宋简体";
+	src: url(../font/方正粗宋简体.ttf);
+}
+@font-face{
+	font-family: "金桥简老宋";
+	src: url(../font/JQLaoSongJT.TTF);
+}
+@font-face{
+	font-family: "方正兰亭黑简体";
+	src: url(../font/FZLYT.TTF);
+}
+/* CSS Document */
+body,html{
+/*	height: 100%;*/
+/*	 width: 100%;*/
+}
+
+*{
+	font-family: "金桥简老宋";
+	font-weight: bold;
+}
+
+hr{
+	color: #DDD8D8;
+	border: none;
+	border-top: 1px solid;
+	margin-top: 2em;
+}
+
+.title{
+	display: block;
+	width: 40%;
+	margin: 6% auto 2% auto ;
+	text-align: center;
+}
+.title span{
+	line-height: 3em;
+	color:#444444;
+	font:bold 1.6em "方正兰亭黑简体";
+}
+
+#upload_area{
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	position: relative
+}
+
+input{
+	border: 0.2em solid #8ECCC9;	
+/*	width: 100%;*/
+/*	padding-left: 10%;*/
+}
+
+input[type="file"]{
+	opacity: 0;
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+#button{
+	display: inline-block;
+	background: #8ECCC9; 
+	width:8em;
+	height:8em;
+	position: relative;
+}
+
+#button>span{
+	font-size: 1.1em;
+/*	font-weight: bolder;*/
+	vertical-align: bottom;
+	line-height: 6.8em;
+
+}
+
+.travel_way{
+	vertical-align: bottom;
+	height: 2.5em;
+	width: 100%;
+}
+
+.travel_story{
+	width: 100%;
+	height:13em;
+	margin-top: 2em;
+	
+}
+
+input[type="textarea"]{
+	vertical-align: top;
+}
+
+input[type="submit"]{
+	position: absolute;
+	right: 0;
+	margin-top: 0.5em;
+	color: #FFFFFF;
+	background:#71C6C4 ;
+	border: none;
+	font:normal 1.1em "方正粗宋简体";
+	padding: 0.3em 0.8em;
+	border-radius: 4px;
+}
+
+input[type="submit"]:hover{
+	background: #A5DBD8;
+	cursor: pointer;
+}
+
+#story_container{
+	position: relative;
+}
+
+#story_text{
+	position: absolute;
+	top: 2.8em;
+	left: 0.8em;
+	font-size: 0.9em;
+	color:#5E5656;
+}

@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: "方正粗宋简体";
+	src: url(../font/方正粗宋简体.ttf);
+}
+@font-face{
+	font-family: "方正小标宋简体";
+	src: url(../font/FZXBSJW.TTF);
+}
+@font-face{
+	font-family: "方正兰亭黑简体";
+	src: url(../font/FZLYT.TTF);
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+#all_content{
+	position: absolute;
+	width:90%;
+	height:85%;
+/*	border:solid 1px #000000;*/
+	margin-top: 4em;
+	margin-left: 4%;
+}
+
+#left_bar{
+	position: absolute;
+	width:28%;
+	height:100%;
+/*	border:solid 1px #000000;*/
+	text-align: center;
+}
+
+hr{
+	background-color:#D8D8D8;
+	border-color: #D8D8D8;
+	border:none;
+}
+
+.hr1{
+	position: absolute;
+	width: 2.5px;
+	height: 100%;
+	left: 29%;
+	top: -5%;
+}
+
+.hr2{
+	position: absolute;
+	width: 85%;	
+	height: 2px;
+	left: 10%; 
+}
+
+.hr3{
+	position: absolute;
+	width: 3.4em;	
+	height: 2px;
+	left:20%; 
+	background-color: #625B5B;
+}
+
+#right_content{
+	position: absolute;
+	width:71%;
+	height:100%;
+	right: 0;
+	top: 0;
+}
+
+.user_info{
+	margin-top: 3.2em;
+}
+
+.main_head_pic{
+	width: 36%;
+	margin: 0 auto；	
+}
+
+.user_info p{
+	font:bold 1.3em "方正兰亭黑简体";
+	line-height: 0.1em;
+	margin-bottom: 1.5em;
+}
+
+.user_info font{
+	font:bold 0.8em "方正小标宋简体";
+	line-height:2em;
+
+}
+
+.user_info span{
+	font:bold 1em "Acme";
+}
+
+#right_content>font{
+	font:bold 0.8em "方正兰亭黑简体";
+	color:#929292;
+	margin-left:20%;
+		
+}
+
+.dynamics{
+	width: 80%;
+	height: 16%;
+	left: 10%;
+	margin-top: 1em;
+	position: relative;
+	vertical-align: middle;
+}
+
+.hr4{
+	position: absolute;
+	width: 1px;	
+	height: 126%;
+	margin-top: -0.5em;
+	left: 10%;
+/*	left:18%;*/
+}
+
+.dynamics img{
+	position: absolute;
+	width: 8%;
+	top: 20%;
+	left: 6%;
+}
+
+.dynamics .text{
+	position: absolute;
+	width: 70%;
+	top: 20%;
+	left: 16%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.dynamics span,.dynamics p{
+	font:bold 0.8em "方正小标宋简体";
+	color: #685A5A;
+}
+
+.dynamics span>font{
+	font:bold 1em "方正兰亭黑简体";
+	color: #8eccc9;
+}
+
+.dynamics p{
+	color: #A49F9F;
+	font-family: Cambria;
+}

@@ -1,0 +1,56 @@
+
+#navbar{
+	background-color:#84ccc9;
+	width: 3%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;	
+}
+/*nav_pic，exchange_pic，upload_pic登录页导航图标*/
+.nav_pic,.exchange_pic{
+	width: 100%;
+}
+
+.upload_pic{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0.8em;
+}
+
+
+.nav_up{
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+
+.nav_down{
+	position: absolute;
+	bottom: 0.2em;
+}
+
+.nav_pic{
+	width: 100%;
+}
+
+/*以下右上角*/
+#head{
+	display: block;
+	position: absolute;
+	right: 2em;
+	top: 1em;
+}
+
+.user{
+	color: #8ECCC9;
+	text-decoration: none;
+	font: bold 1.2em "金桥简老宋";
+}
+
+#user_pic{
+	width: 1.3em;
+	vertical-align: bottom;
+}
+

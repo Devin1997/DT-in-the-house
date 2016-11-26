@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行者之眼</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="行者之眼,旅游平台">
+    <meta name="author" content="greatpie">
+    <link rel="stylesheet" type="text/css" href="css/navigator.css">
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+</head>
+<body>
+<div id="navbar">
+    <div class="nav_up">
+        <a href="PictureMode.html" class="T"><img class="nav_pic" src="image/T.png" onMouseOver="changeT(this)"
+                                                  onMouseOut="changeT_out(this)"></a>
+        <a href="#"><img class="nav_pic" src="image/exchange.png" onMouseOver="changepic_up(this)"
+                         onMouseOut="changepic_up_out(this)"></a>
+    </div>
+    <div class="nav_down">
+        <div>
+            <a href="user_center.html"><img class="nav_pic" src="image/user_left.png" onMouseOver="changeUser(this)"
+                                            onMouseOut="changeUser_out(this)"></a>
+        </div>
+        <div>
+            <a href="#"><img class="nav_pic" src="image/favorite.png" onMouseOver="changeFavour(this)"
+                             onMouseOut="changeFavour_out(this)"></a></div>
+        <div>
+            <a href="notice.html"><img class="nav_pic" src="image/notice.png" onMouseOver="changeNotice(this)"
+                                       onMouseOut="changeNotice_out(this)"></a>
+        </div>
+        <div>
+            <a href="message.html"><img class="nav_pic" src="image/info.png" onMouseOver="changeMessage(this)"
+                                        onMouseOut="changeMessage_out(this)"></a>
+        </div>
+        <div>
+            <a href="upload.html"><img class="nav_pic" src="image/upload.png" onMouseOver="changeUpload(this)"
+                                       onMouseOut="changeUpload_out(this)"></a>
+        </div>
+    </div>
+</div>
+<header id="head">
+    <img src="image/user.png" id="user_pic">
+    <a class="user" href="user_center.html">潘阿达</a>
+</header>
+<div class="container">
+    <div id="map-container">
+
+    </div>
+    <div id="time-bar">
+        <div id="slide-bar"></div>
+    </div>
+</div>
+<script type="text/javascript" src="js/map.js"></script>
+</body>
+</html>

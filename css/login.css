@@ -1,0 +1,216 @@
+@font-face{
+	font-family: "方正兰亭黑简体";
+	src: url(../font/FZLYT.TTF);
+}
+@font-face{
+	font-family: "金桥简老宋";
+	src: url(../font/JQLaoSongJT.TTF);
+}
+
+body{
+	text-align: center;
+}
+
+span{
+	color: #BCC0C0;
+	font:bold 12px  "等线";
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+h2 {
+	font-family:"金桥简老宋";
+	color: #84ccc9;
+	text-align: center;
+}
+
+#header{
+	position: absolute;
+	right:15px;	
+	top: 18px;
+	color: #84ccc9;
+	font: bold 18px "金桥简老宋";
+/*	width: 30%*/
+}
+
+#user{
+	display: inline;
+	width: 21px;
+	vertical-align: bottom;
+}
+
+.title_en{
+	width: 320px;
+	margin-top: 30px;
+	margin-bottom: -20px;
+}
+
+#titles{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+hr{
+	width: 88%;
+	color: #E1E1E1;
+	border: none;
+	border-top: 1px solid;
+}
+
+button{
+	display: inline-block;
+	background-color: #6BB33B;
+	width: 240px;
+	height: 36px;
+	font:16px "等线";
+	color: white;
+	border-radius: 4px;
+	border:0;
+}
+
+button:hover{
+	background-color:#77C246;
+}
+
+input{
+	width: 100%;
+	height: 2.5em;
+}
+
+input[type="text"]{
+	display: block;
+	width: 210px;
+/*	height: 30px;*/
+	border-radius: 3px;
+    border: 0.1em solid #cccccc;
+	padding-left: 30px;
+}
+
+input[type="text"]:focus{
+	outline:none;
+	box-shadow: 0px 0px 6px  #399DD8;
+}
+
+input[type="checkbox"]{
+	-webkit-appearance:none;
+	width: 10px;
+	height: 10px;
+	outline: 0.1em solid #cccccc;
+	vertical-align:middle;
+/*	position: absolute;*/
+}
+
+.checkbox label::after {
+	opacity: 0.8;
+	content: "";
+	position: absolute;
+	width: 6px;
+	height: 3px;
+	top: 4px;
+	left: 5px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+	transform: rotate(-45deg);
+}
+
+.line_text{
+	font-weight: bold;
+	font-size:16px;
+}
+
+.line_strong{
+	color: #4B4B4B;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#line{
+	background-color: #FFFFFF;
+	width: 140px;
+	margin: 0px auto;
+	margin-top: -18px;
+}
+
+#container{
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	height: 15%;
+}
+
+#down_text{
+	display: inline-block;
+	font:bold 12px "等线";
+	color: #A6A6A6;
+	width: 240px;
+	position: relative;
+	margin-left: -5px;
+}
+
+.checkbox{
+	position:absolute;
+	left:0;
+}
+.forget_psd{
+	position:absolute;
+	right:0;
+}
+
+.foreign_phone{
+	font-size: 13px;
+	color: #50B1EF;
+}
+
+.hr_down{
+	display: inline-block;
+	width: 250px;
+	margin-left: -13px;
+	margin-bottom: 14px;
+	margin-top: 10px;
+}
+
+.api_img{
+	height: 33px;
+	margin:12px -0.5px;
+}
+
+
+.special_word{
+	color: #000000;
+	font-family: "方正兰亭黑简体";
+	font-size: 0.2em;
+}
+
+.register_text{
+	font-size: 10px;
+	text-align: left;
+	line-height: 1.5em;
+	display: inline-block;
+	width: 240px;
+	margin-left:-5px;
+}
+
+#uid{
+	background-image: url(../image/user_back.png);
+	background-repeat: no-repeat;
+	background-position:10px;
+	background-size: 0.9em;
+}
+
+#psd{
+	background-image:url(../image/../image/lock.png);
+	background-repeat: no-repeat;
+	background-position:10px;
+	background-size: 1.1em;
+}
+
+#name{
+	background-image:url(../image/../image/../image/name.png);
+	background-repeat: no-repeat;
+	background-position:10px;
+	background-size: 1.1em;
+}

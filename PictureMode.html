@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   	<meta charset="utf-8">
+    <title>图片模式</title>
+    <link rel="stylesheet" href="css/PictureMode.css" />
+    <link rel="stylesheet" href="css/navigator.css"/>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="navbar">
+	    <div class="nav_up">
+	        <a href="PictureMode.html" class="T"><img class="nav_pic" src="image/T.png" onMouseOver="changeT(this)" onMouseOut="changeT_out(this)"></a>
+	        <a href="#"><img class="nav_pic" src="image/exchange.png" onMouseOver="changepic_up(this)" onMouseOut="changepic_up_out(this)"></a>
+	    </div>
+	    <div class="nav_down">
+	        <div>
+	        	<a href="user_center.html"><img class="nav_pic" src="image/user_left.png" onMouseOver="changeUser(this)" onMouseOut="changeUser_out(this)"></a>
+	        </div>
+	        <div>
+	        	<a href="#"><img class="nav_pic" src="image/favorite.png" onMouseOver="changeFavour(this)" onMouseOut="changeFavour_out(this)"></a></div>
+	        <div>
+	        <a href="notice.html"><img class="nav_pic" src="image/notice.png" onMouseOver="changeNotice(this)" onMouseOut="changeNotice_out(this)"></a>
+	        	</div>
+	        <div>
+	        	<a href="message.html"><img class="nav_pic" src="image/info.png" onMouseOver="changeMessage(this)" onMouseOut="changeMessage_out(this)"></a>
+	        </div>
+	        <div>
+	        	<a href="upload.html"><img class="nav_pic" src="image/upload.png" onMouseOver="changeUpload(this)" onMouseOut="changeUpload_out(this)"></a>
+	        </div>
+	    </div>
+	</div>
+	<header id="search">
+	<form action="#">
+			<input type="search" id="search_input" placeholder="请输入关键词…" onFocus="selectSearch()" onBlur="selectSearch_out()">
+	</form>
+	</header>
+	<header id="head">
+		<img src="image/user.png" id="user_pic">
+		<a class="user" href="user_center.html">潘阿达</a>
+	</header>
+
+	<div id="container">
+	        <div class="box_img">
+	            <img src="pictures/1.jpg" />
+	            <input type="image" src="image/nolike.png" class="favorite" onclick="change(this)"/>
+	        </div>
+	        <div class="box_img">
+	            <img src="pictures/2.jpg" />
+	            <input type="image" src="image/nolike.png" class="favorite" onclick="change(this)"/>
+	        </div>
+	        <div class="box_img">
+	            <img src="pictures/3.jpg" />
+	            <input type="image" src="image/nolike.png" class="favorite" onclick="change(this)"/>
+	        </div>
+	        <div class="box_img">
+	            <img src="pictures/4.jpg" />
+	            <input type="image" src="image/nolike.png" class="favorite" onclick="change(this)"/>
+	        </div>
+	        <div class="box_img">
+	            <img src="pictures/5.jpg" />
+	            <input type="image" src="image/nolike.png" class="favorite" onclick="change(this)"/>
+	        </div>
+	        <div class="box_img">
+	            <img src="pictures/6.jpg" />
+	            <input type="image" src="image/nolike.png" class="favorite" onclick="change(this)"/>
+	        </div>
+	        <div class="box_img">
+	            <img src="pictures/7.jpg" />
+	            <input type="image" src="image/nolike.png" class="favorite" onclick="change(this)"/>
+	        </div>
+	</div>
+	<a href="#"><img id="go_top"  src="image/jiantou.png" alt=""></a>
+</body>
+</html>

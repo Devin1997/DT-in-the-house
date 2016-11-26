@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我的提醒</title>
+    <link rel="stylesheet" type="text/css" href="css/notice.css">
+    <link rel="stylesheet" type="text/css" href="css/navigator.css">
+</head>
+<body>
+<header id="head">
+    <img src="image/user.png" id="user_pic">
+    <a class="user" href="user_center.html">潘阿达</a>
+</header>
+	<div id="navbar">
+	    <div class="nav_up">
+	        <a href="PictureMode.html" class="T"><img class="nav_pic" src="image/T.png" onMouseOver="changeT(this)" onMouseOut="changeT_out(this)"></a>
+	        <a href="#"><img class="nav_pic" src="image/exchange.png" onMouseOver="changepic_up(this)" onMouseOut="changepic_up_out(this)"></a>
+	    </div>
+	    <div class="nav_down">
+	        <div>
+	        	<a href="user_center.html"><img class="nav_pic" src="image/user_left.png" onMouseOver="changeUser(this)" onMouseOut="changeUser_out(this)"></a>
+	        </div>
+	        <div>
+	        	<a href="#"><img class="nav_pic" src="image/favorite.png" onMouseOver="changeFavour(this)" onMouseOut="changeFavour_out(this)"></a></div>
+	        <div>
+	        <a href="notice.html"><img class="nav_pic" src="image/notice.png" onMouseOver="changeNotice(this)" onMouseOut="changeNotice_out(this)"></a>
+	        	</div>
+	        <div>
+	        	<a href="message.html"><img class="nav_pic" src="image/info.png" onMouseOver="changeMessage(this)" onMouseOut="changeMessage_out(this)"></a>
+	        </div>
+	        <div>
+	        	<a href="upload.html"><img class="nav_pic" src="image/upload.png" onMouseOver="changeUpload(this)" onMouseOut="changeUpload_out(this)"></a>
+	        </div>
+	    </div>
+	</div>
+	<div class="container">
+	    <div class="messages">
+	        <p>我的提醒</p>
+	        <div id="toolbar">
+	            <a href="#" id="a1">全部提醒</a><a href="#" id="a2">未读提醒</a>
+	            <div class="pull-right">
+	                <a href="#"><img src="image/readed.png" id="bar-pic"/>
+	                    <a id="MarkReaded" href="#">全部标记为已读</a></a>
+	            </div>
+	            <hr>
+	        </div>
+	        <div class="mail">
+	            <a href="#">
+	                <img src="image/administrator.jpg" id="sender-pic"/>
+	                <p id="sendername">管理员</p>
+	                <p id="mail-title">欢迎加入Eyes Of Travel</p>
+	            </a>
+	            <div class="mail-right">
+	                <p id="sendtime">2016.11.22 20:37</p>
+	                <a href="#">
+	                    <img src="image/mailoption.png" id="mail-option"/>
+	                </a>
+	            </div>
+
+	        </div>
+	        <div class="mail">
+	            <a href="#">
+	                <img src="image/administrator.jpg" id="sender-pic"/>
+	                <p id="sendername">管理员</p>
+	                <p id="mail-title">您有一条消息，请注意查收</p>
+	            </a>
+	            <div class="mail-right">
+	                <p id="sendtime">2016.11.24 08:10</p>
+	                <a href="#">
+	                    <img src="image/mailoption.png" id="mail-option"/>
+	                </a>
+	            </div>
+
+	        </div>
+	    </div>
+	</div>
+</body>
+</html>
+
